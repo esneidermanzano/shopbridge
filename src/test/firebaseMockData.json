@@ -1,0 +1,18 @@
+{
+   "-MhBR542Xqg7Knog5ciC": {
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "name": "Playstation 5",
+      "price": "500"
+   },
+   "-MhBY3IQKw25DIThGnKE": {
+      "description": "Acer Nitro 5 AN515 is a Windows 10 laptop with a 15.60-inch display that has a resolution of 1920x1080 pixels. It is powered by a Core i5 processor and it comes with 8GB of RAM. The Acer Nitro 5 AN515 packs 1TB of HDD storage. Graphics are powered by Nvidia GeForce GTX 1050.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/shopbapi-2cbf8.appspot.com/o/images%2F16290768642179.jpg?alt=media&token=943566a6-e729-467e-9f14-619e5be083f3",
+      "name": "Nitro 5 AN515-55",
+      "price": "1500.50"
+   },
+   "-MhEo_yv6qb8JMyVfLg5": {
+      "description": "Realme 7i smartphone was launched on 17th September 2020. The phone comes with a 6.50-inch touchscreen display with a resolution of 720x1600 pixels. Realme 7i is powered by a 2GHz octa-core Qualcomm Snapdragon 662 processor. It comes with 8GB of RAM. The Realme 7i runs Android 10 and is powered by a 5000mAh battery. The Realme 7i supports proprietary fast charging.\n\n",
+      "name": "Realme 7i ",
+      "price": "700"
+   }
+}

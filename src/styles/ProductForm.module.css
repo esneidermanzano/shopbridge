@@ -1,0 +1,112 @@
+.product-form input,
+.product-form textarea {
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border-radius: 4px;
+   box-sizing: border-box;
+   transition: all 0.2s ease-out;
+   border: 2px solid #eee;
+   font-size: 18px;
+   transition: 0.3s ease;
+}
+.product-form input:focus,
+.product-form textarea:focus {
+   outline: none;
+   border: 2px solid #ccc;
+}
+
+.product-form input:disabled,
+.product-form textarea:disabled {
+   background-color: #fff;
+   filter: blur(2px);
+   border: 2px solid #ccc;
+}
+
+.product-form label {
+   display: block;
+   padding-top: 15px;
+}
+
+.product-form #submit {
+   display: block;
+   margin: auto;
+   margin-top: 20px;
+   padding: 15px;
+   border: 0;
+   color: white;
+   font-size: 15px;
+   font-weight: bold;
+   background-color: #28b398;
+}
+
+.load-img-button {
+   margin: auto;
+   text-align: center;
+   padding: 10px;
+   border-radius: 10px;
+   border-style: dotted;
+   width: 180px;
+   border-width: 2px;
+   border-color: #6c757d;
+   cursor: pointer;
+}
+
+.load-img-button span {
+   margin-right: 10px;
+}
+
+.disabled {
+   opacity: 0.4;
+}
+
+.product-form input[type='file'] {
+   display: none;
+}
+.img-ctn {
+   margin: auto;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   width: 250px;
+   height: 250px;
+   background-color: #eee;
+   transition: 0.2s all ease-out;
+}
+
+.img-ctn:hover {
+   transform: scale(1.5);
+}
+
+.img-ctn img {
+   display: block;
+   max-width: 250px;
+   max-height: 250px;
+   width: auto;
+   height: auto;
+   margin: auto;
+   transition: 0.2s all ease-in-out;
+}
+
+.img-delete {
+   position: absolute;
+   width: 35px;
+   height: 35px;
+   margin-left: -10px;
+   margin-top: -10px;
+   color: #eee;
+   background: #333;
+   border: none;
+   transition: 0.2s all;
+   border-radius: 50%;
+   cursor: pointer;
+}
+
+.img-delete:hover {
+   background-color: #e4e7ed;
+   color: #d10024;
+}
+.img-delete:active,
+.img-delete:focus {
+   outline: 0;
+}

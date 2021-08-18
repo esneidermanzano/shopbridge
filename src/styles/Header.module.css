@@ -1,0 +1,35 @@
+.header {
+   height: 150px;
+   width: 100%;
+   background-color: #28b398;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.header div {
+   max-width: 1200px;
+   margin: auto;
+}
+
+.header .amd-link {
+   padding: 10px;
+   background-color: transparent;
+   right: 100px;
+   width: 100px;
+   position: absolute;
+   border: 3px solid white;
+   border-radius: 40px;
+   text-align: center;
+   margin-top: -70px;
+}
+
+.header .amd-link a {
+   color: white;
+   text-decoration: none;
+}
+
+.header .logo {
+   width: 280px;
+   align-self: center;
+}

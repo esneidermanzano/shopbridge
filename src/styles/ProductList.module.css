@@ -1,0 +1,43 @@
+.product-list table {
+   border-collapse: collapse;
+   width: 100%;
+   font-size: 14px;
+}
+
+.product-list thead {
+   border-bottom: 3px solid #dddddd;
+}
+
+.product-list td,
+th {
+   border-top: 1px solid #dddddd;
+   text-align: left;
+   padding: 15px;
+}
+
+.product-list tr:nth-child(even) {
+   background-color: #f7f7f7;
+}
+
+.text-column {
+   max-width: 300px;
+   overflow: hidden;
+   text-overflow: ellipsis;
+}
+
+.product-list .button {
+   width: 35px;
+   height: 35px;
+   color: #eee;
+   background: #2897ce;
+   border: none;
+   transition: 0.2s all;
+   border-radius: 50%;
+   margin: 0 10px;
+   cursor: pointer;
+   font-size: 15px;
+}
+
+.delete {
+   background-color: #dc1a1a !important;
+}

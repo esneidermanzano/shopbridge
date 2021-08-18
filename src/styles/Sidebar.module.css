@@ -1,0 +1,102 @@
+.sidebar {
+   position: fixed;
+   background-color: #008272;
+   height: 100vh;
+   width: 280px;
+   transition: all 0.5s;
+}
+
+.sidebar a {
+   line-height: 4em;
+   padding-left: 40px;
+   transition: 0.5s ease-out;
+   display: block;
+   color: aliceblue;
+   text-decoration: none;
+   transition: 0.5s ease-out;
+   border-left: 8px solid #008272;
+}
+.sidebar a:hover {
+   background-color: #333;
+   border-left: 8px solid #333;
+}
+.sidebar .selected {
+   border-left: 8px solid #eee;
+}
+
+.logo-ctn a {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100px;
+   padding: 0;
+}
+
+.logo-ctn a:hover {
+   background-color: transparent;
+   border-left: 8px solid transparent;
+}
+
+.logo {
+   max-width: 210px;
+   border-bottom: 1px solid #ccc;
+}
+
+.sidebar button {
+   position: fixed;
+   top: 20px;
+   right: 20px;
+   width: 45px;
+   height: 45px;
+   background-color: #28b398;
+   color: #eee;
+   border: none;
+   transition: 0.2s all;
+   border-radius: 50%;
+   cursor: pointer;
+   display: none;
+   box-shadow: 0 2px 2px #888888;
+}
+
+.sidebar button i {
+   font-size: 18px;
+}
+
+@media screen and (max-width: 900px) {
+   .sidebar button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+   .sidebar {
+      margin-left: -300px;
+      box-shadow: -3px 0 15px 0 #000;
+   }
+
+   .mobile {
+      margin-left: 0px !important;
+   }
+
+   .ctn {
+      position: fixed;
+      height: 100vh;
+      width: 100vw;
+      background-color: rgba(0, 0, 0, 0.5);
+      left: 0;
+      top: 0;
+      z-index: 100;
+      display: flex;
+      animation-name: fade-in;
+      animation-duration: 0.4s;
+      overflow-y: auto;
+   }
+
+   @keyframes fade-in {
+      0% {
+         opacity: 0;
+      }
+      100% {
+         opacity: 1;
+      }
+   }
+}

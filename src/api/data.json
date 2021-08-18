@@ -1,0 +1,362 @@
+[
+   {
+      "id_producto": 1,
+      "nombre_producto": "HP 22-c026la",
+      "descripcion": "Powerful, friendly and fun this is the HP All In One computer, suitable for all your | needs, from sending an e-mail to playing online games, viewing high definition images with its Full HD screen and its WLED backlight. It has a 4 GB RAM memory that allows you to do several tasks simultaneously without any inconvenience, it also has 1 TB so you can store multimedia files, documents, programs and more without worry. Buy it already.",
+      "marca": "lENOVO",
+      "precio": 500,
+      "id_subcategoria": 1,
+      "estado": 1,
+      "imagenes": [
+         {
+            "id_imagen": 1,
+            "ruta": "product-images/1.jpg"
+         }
+      ],
+      "subcategoria": {
+         "id_subcategoria": 1,
+         "nombre_subcategoria": "DESKTOP",
+         "id_categoria": 1
+      }
+   },
+   {
+      "id_producto": 2,
+      "nombre_producto": "LENOVO - a340",
+      "descripcion": " Procesador: Intel Core I3 8145U 2.1GHz\n                              Sistema Operativo: Windows 10 HOME 64 EM\n                              Memoria RAM: 4 GB\n                              Disco Duro: 1TB\n                              Pantalla: 21,5\" Pulgadas en Full HD ",
+      "marca": "HP",
+      "precio": 500,
+      "id_subcategoria": 1,
+      "estado": 1,
+      "imagenes": [
+         {
+            "id_imagen": 2,
+            "ruta": "product-images/2.jpg"
+         }
+      ],
+      "subcategoria": {
+         "id_subcategoria": 1,
+         "nombre_subcategoria": "DESKTOP",
+         "id_categoria": 1
+      }
+   },
+   {
+      "id_producto": 3,
+      "nombre_producto": "HP 22-c016la",
+      "descripcion": " Procesador: Intel Core I3 8130U\n                              Sistema Operativo: Windows 10 Home\n                              Memoria RAM: 4GB\n                              Disco Duro: 1TB\n                              Pantalla: 21.5\" Pulgadas ",
+      "marca": "HP",
+      "precio": 500,
+      "id_subcategoria": 1,
+      "estado": 1,
+      "imagenes": [
+         {
+            "id_imagen": 3,
+            "ruta": "product-images/3.jpg"
+         }
+      ],
+      "subcategoria": {
+         "id_subcategoria": 1,
+         "nombre_subcategoria": "DESKTOP",
+         "id_categoria": 1
+      }
+   },
+   {
+      "id_producto": 4,
+      "nombre_producto": "Acer Nitro 5 AN515",
+      "descripcion": "• Procesador: 8ª generación, Intel Core i5+8300H\n                                  • Memoria RAM: 4 GB\n                                  • Intel Optane: 16 GB\n                                  • Disco duro: 1 TB\n                                  • Sistema operativo: Windows 10 Home S",
+      "marca": "acer",
+      "precio": 500,
+      "id_subcategoria": 2,
+      "estado": 1,
+      "imagenes": [
+         {
+            "id_imagen": 4,
+            "ruta": "product-images/4.png"
+         }
+      ],
+      "subcategoria": {
+         "id_subcategoria": 2,
+         "nombre_subcategoria": "GAMER O DE ALTO REDIMIENTO",
+         "id_categoria": 1
+      }
+   },
+   {
+      "id_producto": 5,
+      "nombre_producto": "HP 15-CX0001LA",
+      "descripcion": "• Tamaño pantalla: 15.6\"\n                              • Resolución: 1920 x 1080\n                              • Procesador: Core i5\n                              • Memoria RAM: 8 GB\n                              • Disco duro: 1TB\n                              • Sistema operativo: Windows 10 Home",
+      "marca": "HP",
+      "precio": 500,
+      "id_subcategoria": 2,
+      "estado": 1,
+      "imagenes": [
+         {
+            "id_imagen": 5,
+            "ruta": "product-images/5.jpg"
+         }
+      ],
+      "subcategoria": {
+         "id_subcategoria": 2,
+         "nombre_subcategoria": "GAMER O DE ALTO REDIMIENTO",
+         "id_categoria": 1
+      }
+   },
+   {
+      "id_producto": 6,
+      "nombre_producto": "Legion Y540",
+      "descripcion": "• Pantalla: 15.6\" antirreflejos FHD 1920 x 1080\n                            • Procesador: Intel Core I5-9300H 2.4 GHz (Novena generación)\n                            • Memoria RAM: 8 GB\n                            • Disco duro: 1TB HDD + 128 SSD\n                            • Sistema operativo: Windows 10 Home SL",
+      "marca": "HP",
+      "precio": 500,
+      "id_subcategoria": 2,
+      "estado": 1,
+      "imagenes": [
+         {
+            "id_imagen": 6,
+            "ruta": "product-images/6.jpg"
+         }
+      ],
+      "subcategoria": {
+         "id_subcategoria": 2,
+         "nombre_subcategoria": "GAMER O DE ALTO REDIMIENTO",
+         "id_categoria": 1
+      }
+   },
+   {
+      "id_producto": 7,
+      "nombre_producto": "LENOVO - s340",
+      "descripcion": " Procesador: AMD R5 3500U 2.1GHz\n                               Sistema Operativo: Windows 10 Home\n                               Memoria RAM: 4GB\n                               Disco Duro: Híbrido 1TB HDD + 128GB SSD\n                               Pantalla: 14\"Pulgadas en HD",
+      "marca": "lenovo",
+      "precio": 500,
+      "id_subcategoria": 3,
+      "estado": 1,
+      "imagenes": [
+         {
+            "id_imagen": 7,
+            "ruta": "product-images/7.jpg"
+         }
+      ],
+      "subcategoria": {
+         "id_subcategoria": 3,
+         "nombre_subcategoria": "PORTATILES",
+         "id_categoria": 1
+      }
+   },
+   {
+      "id_producto": 8,
+      "nombre_producto": "HP 15-db0009la",
+      "descripcion": " Tarjeta Gráfica: AMD Radeon 530 con 2 GB DDR5 de memoria gráfica dedicada\n                                Procesador: AMD R3- 2200U\n                                Sistema Operativo: Windows 10 Home\n                                Memoria RAM: 8 GB\n                                Disco Duro: 1 TB\n                                Pantalla: 15 Pulgada",
+      "marca": "hp",
+      "precio": 500,
+      "id_subcategoria": 3,
+      "estado": 1,
+      "imagenes": [
+         {
+            "id_imagen": 8,
+            "ruta": "product-images/8.jpg"
+         }
+      ],
+      "subcategoria": {
+         "id_subcategoria": 3,
+         "nombre_subcategoria": "PORTATILES",
+         "id_categoria": 1
+      }
+   },
+   {
+      "id_producto": 9,
+      "nombre_producto": "ASUS X507UA",
+      "descripcion": " Procesador: Intel Core i3-7020U\n                            Sistema Operativo: Windows 10 (64bit) \n                            Memoria RAM: 8 GB\n                            Disco Duro: 1 TB\n                            Disco Solido: 128 GB\n                            Pantalla: 15,6\" Pulgadas",
+      "marca": "HP",
+      "precio": 500,
+      "id_subcategoria": 3,
+      "estado": 1,
+      "imagenes": [
+         {
+            "id_imagen": 9,
+            "ruta": "product-images/9.jpg"
+         }
+      ],
+      "subcategoria": {
+         "id_subcategoria": 3,
+         "nombre_subcategoria": "PORTATILES",
+         "id_categoria": 1
+      }
+   },
+   {
+      "id_producto": 10,
+      "nombre_producto": "Xiaomi mi 9T",
+      "descripcion": "good phone",
+      "marca": "Xiaomi",
+      "precio": 300,
+      "id_subcategoria": 4,
+      "estado": 1,
+      "imagenes": [
+         {
+            "id_imagen": 10,
+            "ruta": "product-images/10.jpg"
+         }
+      ],
+      "subcategoria": {
+         "id_subcategoria": 4,
+         "nombre_subcategoria": "GAMA ALTA",
+         "id_categoria": 2
+      }
+   },
+   {
+      "id_producto": 11,
+      "nombre_producto": "iPhone 7  this a longer title than the others",
+      "descripcion": "iPhone 7\n                        Pantalla: 4.7 HD Retina\n                        Cámara: 12 Mpx - Frontal 7 Mpx\n                        Procesador: A10\n                        Sistema Operativo: iOS 10\n                        Memoria Interna: 32 GB\n                        Batería: Hasta 16 horas\n                        RED: 4G",
+      "marca": "IPHONE",
+      "precio": 300,
+      "id_subcategoria": 4,
+      "estado": 1,
+      "imagenes": [
+         {
+            "id_imagen": 11,
+            "ruta": "product-images/11.jpg"
+         }
+      ],
+      "subcategoria": {
+         "id_subcategoria": 4,
+         "nombre_subcategoria": "GAMA ALTA",
+         "id_categoria": 2
+      }
+   },
+   {
+      "id_producto": 12,
+      "nombre_producto": "SAMSUNG A10",
+      "descripcion": "Mejora tus capturas nocturnas mediante el modo de baja luz.\n                           Mantente conectado con nuestra batería de 3400 mAh.\n                           Reconocimiento facial como método de desbloqueo.",
+      "marca": "SAMSUNG",
+      "precio": 300,
+      "id_subcategoria": 4,
+      "estado": 1,
+      "imagenes": [
+         {
+            "id_imagen": 12,
+            "ruta": "product-images/12.jpg"
+         }
+      ],
+      "subcategoria": {
+         "id_subcategoria": 4,
+         "nombre_subcategoria": "GAMA ALTA",
+         "id_categoria": 2
+      }
+   },
+   {
+      "id_producto": 13,
+      "nombre_producto": "SAMSUNG A70",
+      "descripcion": "Con tu Galaxy A70 vive una experiencia visual que te lleva a descubrir nuevos mundos,\n                           gracias a su pantalla maximizada de 6.7 pulgadas, te acerca aún más a las cosas que te gustan,\n                           ya que todo cobra vida con la pantalla Infinity-U Display Super AMOLED FHD+.\n                           Ya sea que estés transmitiendo contenido o viendo tus programas favoritos,la relación de aspecto\n                           expansiva de 20:9",
+      "marca": "SAMSUNG",
+      "precio": 300,
+      "id_subcategoria": 5,
+      "estado": 1,
+      "imagenes": [
+         {
+            "id_imagen": 13,
+            "ruta": "product-images/13.jpg"
+         }
+      ],
+      "subcategoria": {
+         "id_subcategoria": 5,
+         "nombre_subcategoria": "GAMA MEDIA",
+         "id_categoria": 2
+      }
+   },
+   {
+      "id_producto": 14,
+      "nombre_producto": "MOTOROLA One",
+      "descripcion": "Triple Cámara captura mejores momentos con enfoque rápido\n                            Pantalla ultra amplia de 6.3” para disfrutar más contenidos\n                            128GB de almacenamiento Lleva contigo música y películas",
+      "marca": "MOTOROLA",
+      "precio": 300,
+      "id_subcategoria": 5,
+      "estado": 1,
+      "imagenes": [
+         {
+            "id_imagen": 14,
+            "ruta": "product-images/14.jpg"
+         }
+      ],
+      "subcategoria": {
+         "id_subcategoria": 5,
+         "nombre_subcategoria": "GAMA MEDIA",
+         "id_categoria": 2
+      }
+   },
+   {
+      "id_producto": 15,
+      "nombre_producto": "SAMSUNG Galaxy J2",
+      "descripcion": "Diseño que realmente brilla. Galaxy J2 Core cuenta con una vívida pantalla qHD de 5.0\n                                \"para ofrecer cobertura de pantalla grande para una experiencia de visualización más cautivadora.\n                                 También viene en una variedad de opciones de color llamativas con una parte posterior\n                                 brillante que realmente se destacan para aquellos que quieren hacer una declaración.",
+      "marca": "SAMSUNG",
+      "precio": 500,
+      "id_subcategoria": 6,
+      "estado": 1,
+      "imagenes": [
+         {
+            "id_imagen": 15,
+            "ruta": "product-images/15.jpg"
+         }
+      ],
+      "subcategoria": {
+         "id_subcategoria": 6,
+         "nombre_subcategoria": "GAMA BAJA",
+         "id_categoria": 2
+      }
+   },
+   {
+      "id_producto": 16,
+      "nombre_producto": "HUAWEI Y6",
+      "descripcion": "Pantalla 6.09\" dewdrop \n                         Camara Frontal de 8Mpx con flash frontal \n                         Memoria ROM de 32GB \n                         Emui 9.0 + Andrioid Pie 9 \n                         Super sound Mejora el sonido mediante la tecnología Histen",
+      "marca": "hG",
+      "precio": 500,
+      "id_subcategoria": 6,
+      "estado": 1,
+      "imagenes": [
+         {
+            "id_imagen": 16,
+            "ruta": "product-images/16.jpg"
+         }
+      ],
+      "subcategoria": {
+         "id_subcategoria": 6,
+         "nombre_subcategoria": "GAMA BAJA",
+         "id_categoria": 2
+      }
+   },
+   {
+      "id_producto": 17,
+      "nombre_producto": "Consola Xbox One",
+      "descripcion": "*\"La única consola diseñada para jugar los mejores juegos del pasado, el presente y el futuro. Lo mejor en entretenimiento en 4K. Haz que tus juegos y películas cobren vida.\n                                 Ya sea que estés disfrutando de tus juegos, mirando tus series favoritas o haciendo streaming de tu juego, Xbox One S ofrece impresionantes gráficos con tecnología HDR, audio de primera calidad y capacidad de juego rápido y confiable con tus amigos. Los beneficios del alto rango dinámico.\n                                 Las estaciones dinámicas cambian todo en el festival automotor más importante del mundo. Hazlo solo o únete a otros jugadores para explorar la hermosa Gran Bretaña histórica en un mundo abierto compartido. Colecciona, modifica y maneja más de 450 autos. Corre, entorpece, crea y explora.\"\n                                *Haz streaming de video Ultra HD 4K en Netflix, Amazon y más.\n                                *Disfruta de las películas con lujo de detalle gracias al Blu-ray TM4K Ultra HD.\n                                *Haz que tus juegos y películas cobren vida con el audio envolvente que ofrecen Dolby Atmos y DTS: X.1\n                                *Disfruta de tus aplicaciones favoritas, como YouTube, Spotify y muchas más.\n                                *Los juegos digitales te acompañan; juega en cualquier consola Xbox One",
+      "marca": "MICROSOFT",
+      "precio": 500,
+      "id_subcategoria": 7,
+      "estado": 1,
+      "imagenes": [
+         {
+            "id_imagen": 17,
+            "ruta": "product-images/17.jpg"
+         }
+      ],
+      "subcategoria": {
+         "id_subcategoria": 7,
+         "nombre_subcategoria": "CONSOLAS TRADICIONALES",
+         "id_categoria": 3
+      }
+   },
+   {
+      "id_producto": 18,
+      "nombre_producto": "PS4 Slim",
+      "descripcion": "El PlayStation Hits Bundle es el máximo paquete de entretenimiento con 3 fascinantes juegos de Days Gone, Detroit: Become Human, Tom Clancy’s Rainbow Six Siege, y un cupón de 3 meses para PS Plus.\n                        La consola PlayStation 4, ahora más liviana y más delgada\n                        Tiene disco duro de 1TB para disfrutar los mejores juegos\n                        Estos exclusivos juegos te llevarán a viajes increíbles\n                        PSHits ofrece poderosos gráficos y alta velocidad\n                        Experiencias de juego atrapantes",
+      "marca": "SONY",
+      "precio": 500,
+      "id_subcategoria": 7,
+      "estado": 1,
+      "imagenes": [
+         {
+            "id_imagen": 18,
+            "ruta": "product-images/18.jpg"
+         }
+      ],
+      "subcategoria": {
+         "id_subcategoria": 7,
+         "nombre_subcategoria": "CONSOLAS TRADICIONALES",
+         "id_categoria": 3
+      }
+   }
+]
