@@ -24,6 +24,10 @@
    border-left: 8px solid #eee;
 }
 
+.sidebar a i {
+   margin-right: 10px;
+}
+
 .logo-ctn a {
    display: flex;
    justify-content: center;

@@ -37,10 +37,19 @@ const Sidebar = (props) => {
                </Link>
             </div>
             <NavLink
+               to="/main/welcome"
+               activeClassName={styles.selected}
+               onClick={hadleShowMenu}
+            >
+               <i class="fas fa-home"></i>
+               Main
+            </NavLink>
+            <NavLink
                to="/main/create"
                activeClassName={styles.selected}
                onClick={hadleShowMenu}
             >
+               <i className="fa fa-shopping-bag" />
                Create Product
             </NavLink>
 
@@ -49,6 +58,7 @@ const Sidebar = (props) => {
                activeClassName={styles.selected}
                onClick={hadleShowMenu}
             >
+               <i class="fas fa-list"></i>
                List Products
             </NavLink>
 
