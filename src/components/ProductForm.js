@@ -31,12 +31,8 @@ const ProductFrom = ({ isUpdate, product, toggle }) => {
    const inputFileRef = useRef();
 
    const handleProductName = (event) => {
-      if (
-         /^[a-z0-9-]+$/.test(
-            event.target.value.replace(/\s/g, '').toLowerCase()
-         )
-      ) {
-         setName(event.target.value.trim());
+      if (/^[a-z0-9- ]*$/.test(event.target.value.toLowerCase())) {
+         setName(event.target.value.replace(/\s+/g, ' '));
       }
    };
 
@@ -45,12 +41,8 @@ const ProductFrom = ({ isUpdate, product, toggle }) => {
    };
 
    const handleProductDesc = (event) => {
-      if (
-         /^[a-z0-9-()!?¿:.]+$/.test(
-            event.target.value.replace(/\s/g, '').toLowerCase()
-         )
-      ) {
-         setDescription(event.target.value.trim());
+      if (/^[a-z0-9- ()!?¿:.|\t]*$/.test(event.target.value.toLowerCase())) {
+         setDescription(event.target.value.replace(/\s+/g, ' '));
       }
    };
 
