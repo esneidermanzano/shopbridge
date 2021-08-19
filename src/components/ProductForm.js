@@ -56,7 +56,11 @@ const ProductFrom = ({ isUpdate, product, toggle }) => {
 
    const handleUploadImage = (event) => {
       let image = event.target.files[0];
-      setImage(image);
+      if (image.size < 5100000) {
+         setImage(image);
+      } else {
+         alert('The image is larger than 5MB');
+      }
    };
 
    const handleDeleteImage = () => {
@@ -190,6 +194,10 @@ const ProductFrom = ({ isUpdate, product, toggle }) => {
                <span>Upload image</span>
                <i className="fas fa-upload"></i>
             </label>
+            <div className={styles['image-span']}>
+               <span>Image should be less than 5MB*</span>
+            </div>
+
             <br />
             <input
                disabled={loading}

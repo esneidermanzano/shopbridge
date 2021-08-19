@@ -110,3 +110,11 @@
 .img-delete:focus {
    outline: 0;
 }
+
+.image-span {
+   font-size: 12px;
+   font-style: italic;
+   margin-top: 20px;
+   color: #6c757d;
+   text-align: center !important;
+}
